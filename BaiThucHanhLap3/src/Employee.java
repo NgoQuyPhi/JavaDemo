@@ -5,7 +5,7 @@ public class Employee {
     int Age;
     float CoefficientsSalary;
     final float BasicSalary = 1490000f;
-    void ImportInformation(){
+    void ImportInformation(){ 
         Scanner sc = new Scanner(System.in);
         System.out.println("Import Your Name: ");
         FullName = sc.nextLine();
