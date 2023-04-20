@@ -26,4 +26,12 @@ public class Rectangle extends Shapes{
         Perimeter = 2 * (Length + Width);
     }
 
+    public float GetPerimeter() {
+        return Perimeter;
+    }
+
+    public void SetLength(float a) {
+        this.Length = a;
+    }
+
 }

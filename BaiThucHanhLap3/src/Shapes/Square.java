@@ -14,5 +14,12 @@ public class Square extends Rectangle {
         Length = Width  = sc.nextFloat();
     }
 
+    public float GetVolume(){
+        return Volume;
+    }
+
+    public void SetLength(float a) {
+        this.Length = this.Width = a;
+    }
 
 }

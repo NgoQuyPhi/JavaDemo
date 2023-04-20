@@ -22,5 +22,12 @@ public class Circle extends Shapes {
     public void AreaCalculate() {
         Area = Pi * Radius * Radius;
     }
+
+    public float GetArea(){
+        return this.Area;
+    }
+    public void SetRadius(float a) {
+        this.Radius = a;
+    }
     
 }

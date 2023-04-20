@@ -20,4 +20,11 @@ public class Cylinder extends Circle{
         AreaCalculate();
         Volume = Area*Hight;
     }
+    public float GetVolume() {
+        return Volume;
+    }
+
+    public void SetHight(float a) {
+        this.Hight = a;
+    }
 }

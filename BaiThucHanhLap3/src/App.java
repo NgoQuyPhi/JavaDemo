@@ -7,7 +7,7 @@ import Shapes.Square;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        int number = 65;
+        int number = 1;
         switch (number) {
             case 1:
                 Circle cc = new Circle();
